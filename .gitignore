@@ -1,0 +1,20 @@
+# Python bytecode and test caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Local Python environments
+.venv/
+venv/
+env/
+
+# Downloaded and processed datasets (loaded by the notebook)
+/gnn_hw1/data/
+
+# macOS metadata
+.DS_Store
